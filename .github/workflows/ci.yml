@@ -2,7 +2,8 @@ name: Build and Test example
 
 on:
   push:
-    paths-ignore: "docs/conf.py"
+    paths-ignore: 
+      - "docs/conf.py"
     branches:
       - dev
 
