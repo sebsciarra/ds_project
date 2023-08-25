@@ -35,10 +35,10 @@ jobs:
           environment-file: environment.yml
           use-mamba: true
 
-      - name: Run black
+      - name: Run flake8
         run: |
           conda install black flake8 mypy
           flake8
 
-      - name: Run flake8
+      - name: Run black
         run: black --check .
