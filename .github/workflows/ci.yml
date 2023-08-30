@@ -38,7 +38,9 @@ jobs:
 
       - name: Run flake8
         run: |
+          pip install "black[jupyter]"
           conda install black flake8 mypy
+          pip install
           flake8
 
       - name: Run black
