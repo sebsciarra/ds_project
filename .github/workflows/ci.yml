@@ -32,7 +32,6 @@ jobs:
 
       - name: Run flake8
         run: |
-
           conda install  flake8
           flake8
 

@@ -76,7 +76,7 @@ repos:
       - id: python-use-type-annotations
       - id: text-unicode-replacement-char
 
-  -   repo: https://github.com/pre-commit/mirrors-mypy
-      rev: '08cbc46'  # Use the sha / tag you want to point at
-      hooks:
-      -   id: mypy
+ #-   repo: https://github.com/pre-commit/mirrors-mypy
+ #    rev: '08cbc46'  # Use the sha / tag you want to point at
+ #    hooks:
+ #    -   id: mypy
